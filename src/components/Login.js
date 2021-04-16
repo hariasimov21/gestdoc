@@ -7,8 +7,8 @@ export class Login extends Component {
   render() {
     return (
       <>
-        <Row className="row">
-          <Col className="col-lg-6 p-5 left">
+        <Row>
+          <Col xs={12} md={6} lg={6} className="p-5 left">
             <h1 className="text-start pt-5 h1login">JJDOCS</h1>
             <br />
             <p className="text-start pt-5 fs-1">
@@ -22,7 +22,7 @@ export class Login extends Component {
               comuníquese con el administrador
             </h3>
           </Col>
-          <Col className="col-lg-6 p-5 right">
+          <Col  xs={12} md={6} lg={6}  className="p-5 right">
             <h1 className="h1login pt-5">Inicio de sesión</h1>
             <Form>
               <Form.Group controlId="formBasicEmail">
