@@ -32,7 +32,7 @@
 
 /* Color Texto Custom */
 .text-white {
- color: white;
+ color: white !important;
 }
 
 .pt-200{

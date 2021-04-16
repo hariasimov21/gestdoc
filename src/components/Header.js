@@ -12,7 +12,9 @@ export class Header extends Component {
           onSelect={(selectedKey) => alert(`selected ${selectedKey}`)} */
         >
           <Nav.Item>
-            <Nav.Link href="/home">CCP Ingenieria</Nav.Link>
+            <Nav.Link className="text-white" href="/home">
+              CCP Ingenieria
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-1">Quienes somos</Nav.Link>
