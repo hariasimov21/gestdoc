@@ -4,7 +4,6 @@
   width: 100%;
   background-repeat: no-repeat;
   background-size: 1000px 1000px;
-  
 }
 
 .h1login{
@@ -20,4 +19,25 @@
   color: #ffffff;
   font-size: 25px;
 }
+
+/* Tamaño Texto Custom */
+.text-25{
+  font-size: 25px;
+}
+
+/* BG */
+.bg-default {
+  background-color: #33AF84;
+}
+
+/* Color Texto Custom */
+.text-white {
+ color: white;
+}
+
+.pt-200{
+  padding-top: 200px;
+}
+
+
 
