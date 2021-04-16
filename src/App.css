@@ -25,6 +25,10 @@
   font-size: 25px;
 }
 
+.text-200 {
+  font-size: 200px
+}
+
 /* BG */
 .bg-default {
   background-color: #33AF84;
@@ -33,6 +37,14 @@
 /* Color Texto Custom */
 .text-white {
  color: white;
+}
+
+.text-blue{
+  color: #2784D5;
+}
+
+.text-whiteblue{
+  color: #55C9EE;
 }
 
 .pt-200{
