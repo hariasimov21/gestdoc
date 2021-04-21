@@ -8,6 +8,7 @@ import {
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 export default class Landing extends Component {
   static propTypes = {
@@ -43,6 +44,41 @@ export default class Landing extends Component {
             <FontAwesomeIcon className="text-200" icon={faFolder} />
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <h1>
+              Inicia sesión con tu correo y el sistema detectará inmediatamente
+              tu cargo
+            </h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div>
+              <h1>M</h1>
+            </div>
+            <div>
+              <h1>E</h1>
+            </div>
+            <div>
+              <h1>R</h1>
+            </div>
+            <div>
+              <h1>N</h1>
+            </div>
+          </Col>
+          <Col>
+            <h1>Desarrollado con tecnologia MERN</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <h2>
+              <small>Nuestros</small> Usuarios dicen:
+            </h2>
+          </Col>
+        </Row>
+        <Footer />
       </>
     );
   }
